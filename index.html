@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Mohamed El Fadil | BrainSAIT - Healthcare AI Innovation</title>
+    <meta name="description" content="Dr. Mohamed El Fadil - Physician Entrepreneur & Healthcare AI Innovator. Building the future of healthcare through cutting-edge AI solutions, FHIR/HL7 integration, and multilingual clinical intelligence systems.">
+    <meta name="keywords" content="Healthcare AI, FHIR, HL7, Clinical Intelligence, Telemedicine, BrainSAIT, Healthcare Technology">
+    <meta name="author" content="Dr. Mohamed El Fadil">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fadil.brainsait.com/">
+    <meta property="og:title" content="Dr. Mohamed El Fadil | BrainSAIT - Healthcare AI Innovation">
+    <meta property="og:description" content="Healthcare AI Innovation Leader building the future of healthcare through cutting-edge AI solutions">
+    <meta property="og:image" content="https://fadil.brainsait.com/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://fadil.brainsait.com/">
+    <meta property="twitter:title" content="Dr. Mohamed El Fadil | BrainSAIT - Healthcare AI Innovation">
+    <meta property="twitter:description" content="Healthcare AI Innovation Leader building the future of healthcare through cutting-edge AI solutions">
+    <meta property="twitter:image" content="https://fadil.brainsait.com/og-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fadil.brainsait.com/">
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://use.typekit.net">
+    <link rel="dns-prefetch" href="https://cdn.tailwindcss.com">
+    <link rel="stylesheet" href="https://use.typekit.net/qhs0fke.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --primary: #1e293b;
+            --secondary: #334155;
+            --accent: #0ea5e9;
+            --accent-light: #38bdf8;
+            --accent-dark: #0284c7;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --light: #f8fafc;
+            --dark: #0f172a;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .arabic-font {
+            font-family: "amiri", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 1.8;
+        }
+
+        .arabic-bold {
+            font-family: "amiri", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #e2e8f0;
+            min-height: 100vh;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .gradient-border {
+            background: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%);
+            padding: 1px;
+            border-radius: 1rem;
+        }
+
+        .glass-effect {
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .card-glow {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card-glow::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(45deg, #38bdf8, #818cf8, #c084fc, #38bdf8);
+            background-size: 400% 400%;
+            animation: gradient-animation 15s ease infinite;
+            border-radius: inherit;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: -1;
+        }
+
+        .card-glow:hover::before {
+            opacity: 1;
+        }
+
+        @keyframes gradient-animation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .floating {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        .slide-in {
+            animation: slideIn 0.8s ease-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .text-glow {
+            text-shadow: 0 0 30px rgba(56, 189, 248, 0.5);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+            color: white;
+            padding: 14px 32px;
+            border-radius: 12px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: inline-block;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(56, 189, 248, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(56, 189, 248, 0.4);
+        }
+
+        .btn-outline {
+            border: 2px solid;
+            border-image: linear-gradient(135deg, #38bdf8, #818cf8) 1;
+            color: #38bdf8;
+            padding: 12px 30px;
+            border-radius: 12px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: inline-block;
+            text-decoration: none;
+            background: transparent;
+        }
+
+        .btn-outline:hover {
+            background: rgba(56, 189, 248, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .section-padding {
+            padding: 120px 0;
+        }
+
+        .container-custom {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .timeline-line {
+            background: linear-gradient(180deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%);
+            width: 3px;
+            position: absolute;
+            left: 20px;
+            top: 0;
+            bottom: 0;
+        }
+
+        .timeline-dot {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+            border-radius: 50%;
+            position: absolute;
+            left: 0;
+            top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 20px rgba(56, 189, 248, 0.5);
+        }
+
+        .timeline-dot::after {
+            content: '';
+            width: 20px;
+            height: 20px;
+            background: #0f172a;
+            border-radius: 50%;
+            position: absolute;
+        }
+
+        .nav-item {
+            position: relative;
+            color: #94a3b8;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            padding: 8px 16px;
+        }
+
+        .nav-item::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 2px;
+            background: linear-gradient(90deg, #38bdf8, #818cf8);
+            transition: all 0.3s ease;
+            transform: translateX(-50%);
+        }
+
+        .nav-item:hover {
+            color: #38bdf8;
+        }
+
+        .nav-item:hover::after {
+            width: 80%;
+        }
+
+        .skill-badge {
+            display: inline-block;
+            padding: 8px 20px;
+            background: rgba(56, 189, 248, 0.1);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            border-radius: 50px;
+            color: #38bdf8;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .skill-badge:hover {
+            background: rgba(56, 189, 248, 0.2);
+            border-color: rgba(56, 189, 248, 0.5);
+            transform: translateY(-2px);
+        }
+
+        .project-card {
+            background: rgba(30, 41, 59, 0.5);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 24px;
+            padding: 32px;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .project-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #38bdf8, #818cf8, #c084fc);
+            transform: scaleX(0);
+            transition: transform 0.4s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-8px);
+            background: rgba(30, 41, 59, 0.8);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .project-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .stat-number {
+            font-size: 3.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1;
+        }
+
+        .bg-pattern {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image:
+                radial-gradient(circle at 20% 50%, rgba(56, 189, 248, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(129, 140, 248, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 40% 20%, rgba(192, 132, 252, 0.1) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .social-icon {
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(56, 189, 248, 0.1);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            border-radius: 12px;
+            color: #38bdf8;
+            transition: all 0.3s ease;
+        }
+
+        .social-icon:hover {
+            background: rgba(56, 189, 248, 0.2);
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(56, 189, 248, 0.3);
+        }
+
+        .tool-card {
+            background: linear-gradient(135deg, rgba(56, 189, 248, 0.05) 0%, rgba(129, 140, 248, 0.05) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            padding: 28px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .tool-card::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(56, 189, 248, 0.1) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .tool-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(56, 189, 248, 0.3);
+        }
+
+        .tool-card:hover::after {
+            opacity: 1;
+        }
+
+        .rtl {
+            direction: rtl;
+            text-align: right;
+        }
+
+        [data-status][data-tone="success"] {
+            color: #34d399;
+        }
+
+        [data-status][data-tone="error"] {
+            color: #f87171;
+        }
+
+        [data-status][data-tone="pending"] {
+            color: #38bdf8;
+        }
+
+        .rtl .timeline-line {
+            left: auto;
+            right: 20px;
+        }
+
+        .rtl .timeline-dot {
+            left: auto;
+            right: 0;
+        }
+
+        .rtl .relative.pl-16 {
+            padding-left: 0;
+            padding-right: 4rem;
+        }
+
+        .rtl .flex-row {
+            flex-direction: row-reverse;
+        }
+
+        .rtl .space-x-4 > * + * {
+            margin-left: 0;
+            margin-right: 1rem;
+        }
+
+        .rtl .ml-2 {
+            margin-left: 0;
+            margin-right: 0.5rem;
+        }
+
+        .rtl .space-x-3 > * + * {
+            margin-left: 0;
+            margin-right: 0.75rem;
+        }
+
+        .rtl .space-x-2 > * + * {
+            margin-left: 0;
+            margin-right: 0.5rem;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-in {
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+
+        @media (max-width: 768px) {
+            .section-padding {
+                padding: 80px 0;
+            }
+
+            .stat-number {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Loading State -->
+    <div id="loader" class="fixed inset-0 bg-slate-900 flex items-center justify-center z-50">
+        <div class="relative">
+            <div class="w-20 h-20 border-4 border-cyan-500/30 rounded-full animate-spin border-t-cyan-500"></div>
+            <div class="absolute inset-0 flex items-center justify-center">
+                <span class="text-2xl font-bold gradient-text">B</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Pattern -->
+    <div class="bg-pattern"></div>
+
+    <!-- Language Switcher -->
+    <div class="fixed top-8 right-8 z-50 glass-effect rounded-full p-2 flex gap-2">
+        <button onclick="setLanguage('en')" id="enBtn" aria-label="Switch to English" class="px-5 py-2.5 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-semibold transition-all duration-300">EN</button>
+        <button onclick="setLanguage('ar')" id="arBtn" aria-label="Switch to Arabic" class="px-5 py-2.5 rounded-full hover:bg-white/10 transition-all duration-300 text-gray-300">AR</button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="fixed w-full top-0 z-40 glass-effect border-b border-white/5">
+        <div class="container-custom">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-cyan-500 to-blue-500 flex items-center justify-center">
+                        <span class="text-white font-bold text-xl">B</span>
+                    </div>
+                    <span class="text-2xl font-bold text-white">BrainSAIT</span>
+                </div>
+                <button onclick="toggleMobileMenu()" id="mobileMenuToggle" class="md:hidden p-2 rounded-lg hover:bg-white/10 transition-all" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="navMenu">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+                <div class="hidden md:flex items-center space-x-2" id="navMenu">
+                    <a href="#home" class="nav-item" aria-label="Navigate to Home section">Home</a>
+                    <a href="#about" class="nav-item" aria-label="Navigate to About section">About</a>
+                    <a href="#expertise" class="nav-item" aria-label="Navigate to Expertise section">Expertise</a>
+                    <a href="#projects" class="nav-item" aria-label="Navigate to Projects section">Projects</a>
+                    <a href="#tools" class="nav-item" aria-label="Navigate to Tools section">Tools</a>
+                    <a href="#journey" class="nav-item" aria-label="Navigate to Journey section">Journey</a>
+                    <a href="#contact" class="nav-item" aria-label="Navigate to Contact section">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden">
+        <div class="container-custom relative z-10">
+            <div class="text-center">
+                <div class="mb-8 slide-in">
+                    <span class="inline-block px-6 py-3 glass-effect rounded-full text-cyan-400 font-medium">
+                        <span data-en="🚀 Transforming Healthcare with AI" data-ar="🚀 تحويل الرعاية الصحية بالذكاء الاصطناعي">🚀 Transforming Healthcare with AI</span>
+                    </span>
+                </div>
+                <h1 class="text-6xl md:text-7xl lg:text-8xl font-bold mb-6 slide-in" style="animation-delay: 0.1s;">
+                    <span class="gradient-text text-glow" data-en="Dr. Mohamed El Fadil" data-ar="د. محمد الفاضل">Dr. Mohamed El Fadil</span>
+                </h1>
+                <p class="text-2xl md:text-3xl text-gray-300 mb-4 slide-in" style="animation-delay: 0.2s;" data-en="Physician Entrepreneur & Healthcare AI Innovator" data-ar="طبيب رائد أعمال ومبتكر في الذكاء الاصطناعي الصحي">
+                    Physician Entrepreneur & Healthcare AI Innovator
+                </p>
+                <p class="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-12 slide-in" style="animation-delay: 0.3s;" data-en="Building the future of healthcare through cutting-edge AI solutions, FHIR/HL7 integration, and multilingual clinical intelligence systems." data-ar="بناء مستقبل الرعاية الصحية من خلال حلول الذكاء الاصطناعي المتطورة، وتكامل FHIR/HL7، وأنظمة الذكاء السريري متعددة اللغات.">
+                    Building the future of healthcare through cutting-edge AI solutions, FHIR/HL7 integration, and multilingual clinical intelligence systems.
+                </p>
+                <div class="flex flex-wrap gap-6 justify-center slide-in" style="animation-delay: 0.4s;">
+                    <a href="#projects" class="btn-primary">
+                        <span data-en="Explore Projects" data-ar="استكشف المشاريع">Explore Projects</span>
+                    </a>
+                    <a href="#contact" class="btn-outline">
+                        <span data-en="Let's Connect" data-ar="دعنا نتواصل">Let's Connect</span>
+                    </a>
+                </div>
+
+                <!-- Floating Elements -->
+                <div aria-hidden="true" class="absolute -top-20 -left-20 w-72 h-72 bg-cyan-500/10 rounded-full blur-3xl floating"></div>
+                <div aria-hidden="true" class="absolute -bottom-20 -right-20 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl floating" style="animation-delay: 3s;"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding relative">
+        <div class="container-custom">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl md:text-6xl font-bold gradient-text mb-4" data-en="About Me" data-ar="نبذة عني">About Me</h2>
+                <p class="text-xl text-gray-400" data-en="Bridging Medicine and Technology Since 2010" data-ar="ربط الطب والتكنولوجيا منذ 2010">Bridging Medicine and Technology Since 2010</p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <p class="text-lg text-gray-300 mb-8 leading-relaxed" data-en="As a practicing physician since 2010 and founder of BrainSAIT, I've dedicated my career to revolutionizing healthcare through technology. My mission is to create intelligent, scalable solutions that enhance patient care and empower healthcare professionals worldwide." data-ar="كطبيب ممارس منذ عام 2010 ومؤسس BrainSAIT، كرست مسيرتي المهنية لإحداث ثورة في الرعاية الصحية من خلال التكنولوجيا. مهمتي هي إنشاء حلول ذكية وقابلة للتطوير تعزز رعاية المرضى وتمكن المتخصصين في الرعاية الصحية في جميع أنحاء العالم.">
+                        As a practicing physician since 2010 and founder of BrainSAIT, I've dedicated my career to revolutionizing healthcare through technology. My mission is to create intelligent, scalable solutions that enhance patient care and empower healthcare professionals worldwide.
+                    </p>
+
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-cyan-500/20 to-blue-500/20 flex items-center justify-center flex-shrink-0">
+                                <span class="text-cyan-400 text-xl">🏥</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-white mb-2" data-en="Healthcare Innovation" data-ar="ابتكار الرعاية الصحية">Healthcare Innovation</h3>
+                                <p class="text-gray-400" data-en="Leading digital transformation in healthcare with AI-powered clinical decision support systems" data-ar="قيادة التحول الرقمي في الرعاية الصحية مع أنظمة دعم القرار السريري المدعومة بالذكاء الاصطناعي">Leading digital transformation in healthcare with AI-powered clinical decision support systems</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-purple-500/20 to-pink-500/20 flex items-center justify-center flex-shrink-0">
+                                <span class="text-purple-400 text-xl">🤖</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-white mb-2" data-en="AI & Machine Learning" data-ar="الذكاء الاصطناعي والتعلم الآلي">AI & Machine Learning</h3>
+                                <p class="text-gray-400" data-en="Developing sophisticated NLP models for clinical documentation and multilingual healthcare communication" data-ar="تطوير نماذج معالجة اللغة الطبيعية المتطورة للتوثيق السريري والتواصل الصحي متعدد اللغات">Developing sophisticated NLP models for clinical documentation and multilingual healthcare communication</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-green-500/20 to-teal-500/20 flex items-center justify-center flex-shrink-0">
+                                <span class="text-green-400 text-xl">🔗</span>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-white mb-2" data-en="Interoperability Expert" data-ar="خبير التشغيل البيني">Interoperability Expert</h3>
+                                <p class="text-gray-400" data-en="Mastery in FHIR, HL7, and NPHIES standards for seamless healthcare data exchange" data-ar="إتقان معايير FHIR وHL7 وNPHIES لتبادل بيانات الرعاية الصحية بسلاسة">Mastery in FHIR, HL7, and NPHIES standards for seamless healthcare data exchange</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="glass-effect rounded-2xl p-8 text-center card-glow">
+                        <div class="stat-number mb-3">14+</div>
+                        <p class="text-gray-400 font-medium" data-en="Years of Experience" data-ar="سنوات الخبرة">Years of Experience</p>
+                    </div>
+                    <div class="glass-effect rounded-2xl p-8 text-center card-glow">
+                        <div class="stat-number mb-3">50+</div>
+                        <p class="text-gray-400 font-medium" data-en="Projects Delivered" data-ar="المشاريع المنجزة">Projects Delivered</p>
+                    </div>
+                    <div class="glass-effect rounded-2xl p-8 text-center card-glow">
+                        <div class="stat-number mb-3">2</div>
+                        <p class="text-gray-400 font-medium" data-en="PyPI Packages" data-ar="حزم PyPI">PyPI Packages</p>
+                    </div>
+                    <div class="glass-effect rounded-2xl p-8 text-center card-glow">
+                        <div class="stat-number mb-3">1K+</div>
+                        <p class="text-gray-400 font-medium" data-en="Healthcare Professionals Impacted" data-ar="المتخصصين المتأثرين">Healthcare Professionals Impacted</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="section-padding relative">
+        <div class="container-custom">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl md:text-6xl font-bold gradient-text mb-4" data-en="Core Expertise" data-ar="الخبرات الأساسية">Core Expertise</h2>
+                <p class="text-xl text-gray-400" data-en="Specialized Skills in Healthcare Technology" data-ar="مهارات متخصصة في تقنية الرعاية الصحية">Specialized Skills in Healthcare Technology</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="glass-effect rounded-2xl p-8 text-center">
+                    <div class="w-16 h-16 mx-auto mb-6 rounded-xl bg-gradient-to-br from-cyan-500/20 to-blue-500/20 flex items-center justify-center">
+                        <span class="text-3xl">🏥</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3" data-en="Healthcare Technology" data-ar="تقنية الرعاية الصحية">Healthcare Technology</h3>
+                    <div class="space-y-2">
+                        <span class="skill-badge">FHIR R4</span>
+                        <span class="skill-badge">HL7 v2.x</span>
+                        <span class="skill-badge">NPHIES</span>
+                        <span class="skill-badge">DICOM</span>
+                    </div>
+                </div>
+
+                <div class="glass-effect rounded-2xl p-8 text-center">
+                    <div class="w-16 h-16 mx-auto mb-6 rounded-xl bg-gradient-to-br from-purple-500/20 to-pink-500/20 flex items-center justify-center">
+                        <span class="text-3xl">🤖</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3" data-en="AI & Machine Learning" data-ar="الذكاء الاصطناعي">AI & Machine Learning</h3>
+                    <div class="space-y-2">
+                        <span class="skill-badge">Clinical NLP</span>
+                        <span class="skill-badge">TensorFlow</span>
+                        <span class="skill-badge">PyTorch</span>
+                        <span class="skill-badge">LangChain</span>
+                    </div>
+                </div>
+
+                <div class="glass-effect rounded-2xl p-8 text-center">
+                    <div class="w-16 h-16 mx-auto mb-6 rounded-xl bg-gradient-to-br from-green-500/20 to-teal-500/20 flex items-center justify-center">
+                        <span class="text-3xl">💻</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3" data-en="Development Stack" data-ar="حزمة التطوير">Development Stack</h3>
+                    <div class="space-y-2">
+                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">React</span>
+                        <span class="skill-badge">Node.js</span>
+                        <span class="skill-badge">Docker</span>
+                    </div>
+                </div>
+
+                <div class="glass-effect rounded-2xl p-8 text-center">
+                    <div class="w-16 h-16 mx-auto mb-6 rounded-xl bg-gradient-to-br from-orange-500/20 to-red-500/20 flex items-center justify-center">
+                        <span class="text-3xl">☁️</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3" data-en="Cloud & DevOps" data-ar="السحابة و DevOps">Cloud & DevOps</h3>
+                    <div class="space-y-2">
+                        <span class="skill-badge">AWS</span>
+                        <span class="skill-badge">Kubernetes</span>
+                        <span class="skill-badge">Cloudflare</span>
+                        <span class="skill-badge">CI/CD</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding relative">
+        <div class="container-custom">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl md:text-6xl font-bold gradient-text mb-4" data-en="Featured Projects" data-ar="المشاريع المميزة">Featured Projects</h2>
+                <p class="text-xl text-gray-400" data-en="Innovative Solutions Transforming Healthcare" data-ar="حلول مبتكرة تحول الرعاية الصحية">Innovative Solutions Transforming Healthcare</p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-8">
+                <!-- BrainSAIT Core Platform -->
+                <div class="project-card">
+                    <div class="flex items-start justify-between mb-6">
+                        <div>
+                            <h3 class="text-2xl font-bold text-white mb-2" data-en="BrainSAIT Core Platform" data-ar="منصة BrainSAIT الأساسية">BrainSAIT Core Platform</h3>
+                            <p class="text-cyan-400 font-medium">🚀 Flagship Product</p>
+                        </div>
+                        <span class="px-4 py-2 bg-green-500/20 text-green-400 rounded-lg text-sm font-medium">Active</span>
+                    </div>
+                    <p class="text-gray-300 mb-6 leading-relaxed" data-en="Comprehensive healthcare intelligence platform integrating AI-driven diagnostics, clinical decision support, and real-time patient monitoring. Features advanced NLP for multilingual clinical documentation and FHIR-compliant data exchange." data-ar="منصة ذكاء رعاية صحية شاملة تدمج التشخيصات المدعومة بالذكاء الاصطناعي ودعم القرار السريري ومراقبة المرضى في الوقت الفعلي.">
+                        Comprehensive healthcare intelligence platform integrating AI-driven diagnostics, clinical decision support, and real-time patient monitoring. Features advanced NLP for multilingual clinical documentation and FHIR-compliant data exchange.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="skill-badge">Healthcare AI</span>
+                        <span class="skill-badge">FHIR</span>
+                        <span class="skill-badge">Clinical NLP</span>
+                        <span class="skill-badge">Real-time Analytics</span>
+                    </div>
+                    <a href="#" class="text-cyan-400 hover:text-cyan-300 font-medium inline-flex items-center">
+                        <span data-en="View Details" data-ar="عرض التفاصيل">View Details</span>
+                        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- GIVC Platform -->
+                <div class="project-card">
+                    <div class="flex items-start justify-between mb-6">
+                        <div>
+                            <h3 class="text-2xl font-bold text-white mb-2" data-en="GIVC Platform" data-ar="منصة GIVC">GIVC Platform</h3>
+                            <p class="text-purple-400 font-medium">🌍 Global Virtual Care</p>
+                        </div>
+                        <span class="px-4 py-2 bg-green-500/20 text-green-400 rounded-lg text-sm font-medium">Active</span>
+                    </div>
+                    <p class="text-gray-300 mb-6 leading-relaxed" data-en="Next-generation telemedicine platform enabling global healthcare delivery. Features AI-powered triage, real-time translation for 15+ languages, and integrated diagnostic tools with 98% accuracy in preliminary assessments." data-ar="منصة التطبيب عن بُعد من الجيل التالي تمكن تقديم الرعاية الصحية العالمية. تتميز بالفرز المدعوم بالذكاء الاصطناعي والترجمة الفورية لأكثر من 15 لغة.">
+                        Next-generation telemedicine platform enabling global healthcare delivery. Features AI-powered triage, real-time translation for 15+ languages, and integrated diagnostic tools with 98% accuracy in preliminary assessments.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="skill-badge">Telemedicine</span>
+                        <span class="skill-badge">AI Triage</span>
+                        <span class="skill-badge">Multi-language</span>
+                        <span class="skill-badge">Remote Diagnostics</span>
+                    </div>
+                    <a href="#" class="text-cyan-400 hover:text-cyan-300 font-medium inline-flex items-center">
+                        <span data-en="View Details" data-ar="عرض التفاصيل">View Details</span>
+                        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- PyPI Packages -->
+                <div class="project-card">
+                    <div class="flex items-start justify-between mb-6">
+                        <div>
+                            <h3 class="text-2xl font-bold text-white mb-2" data-en="Open Source PyPI Packages" data-ar="حزم PyPI مفتوحة المصدر">Open Source PyPI Packages</h3>
+                            <p class="text-green-400 font-medium">📦 Community Contribution</p>
+                        </div>
+                        <span class="px-4 py-2 bg-blue-500/20 text-blue-400 rounded-lg text-sm font-medium">Open Source</span>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="p-4 bg-slate-800/50 rounded-lg">
+                            <h4 class="text-lg font-semibold text-white mb-2">brainsait-pyheart</h4>
+                            <p class="text-gray-400 text-sm mb-3">Healthcare Interoperability & Workflow Engine with FHIR/HL7 support</p>
+                            <code class="text-cyan-400 font-mono text-sm">pip install brainsait-pyheart</code>
+                        </div>
+                        <div class="p-4 bg-slate-800/50 rounded-lg">
+                            <h4 class="text-lg font-semibold text-white mb-2">brainsait-pybrain</h4>
+                            <p class="text-gray-400 text-sm mb-3">Unified Healthcare Intelligence Platform with Clinical NLP</p>
+                            <code class="text-cyan-400 font-mono text-sm">pip install brainsait-pybrain</code>
+                        </div>
+                    </div>
+                    <a href="https://pypi.org/user/Fadil369/" target="_blank" class="text-cyan-400 hover:text-cyan-300 font-medium inline-flex items-center mt-6">
+                        <span data-en="View on PyPI" data-ar="عرض على PyPI">View on PyPI</span>
+                        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- GP Portal -->
+                <div class="project-card">
+                    <div class="flex items-start justify-between mb-6">
+                        <div>
+                            <h3 class="text-2xl font-bold text-white mb-2" data-en="GP Portal & Management System" data-ar="بوابة الطبيب العام">GP Portal & Management System</h3>
+                            <p class="text-orange-400 font-medium">🏥 Clinical Excellence</p>
+                        </div>
+                        <span class="px-4 py-2 bg-green-500/20 text-green-400 rounded-lg text-sm font-medium">Active</span>
+                    </div>
+                    <p class="text-gray-300 mb-6 leading-relaxed" data-en="Advanced practice management platform for general practitioners. Features AI-assisted diagnosis, automated clinical workflows, patient portal with secure messaging, and integrated billing with insurance verification." data-ar="منصة إدارة ممارسة متقدمة للممارسين العامين. تتميز بالتشخيص بمساعدة الذكاء الاصطناعي وسير العمل السريري الآلي.">
+                        Advanced practice management platform for general practitioners. Features AI-assisted diagnosis, automated clinical workflows, patient portal with secure messaging, and integrated billing with insurance verification.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="skill-badge">Practice Management</span>
+                        <span class="skill-badge">Clinical Workflows</span>
+                        <span class="skill-badge">Patient Portal</span>
+                        <span class="skill-badge">Billing Integration</span>
+                    </div>
+                    <a href="#" class="text-cyan-400 hover:text-cyan-300 font-medium inline-flex items-center">
+                        <span data-en="View Details" data-ar="عرض التفاصيل">View Details</span>
+                        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="section-padding relative">
+        <div class="container-custom">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl md:text-6xl font-bold gradient-text mb-4" data-en="AI Tools & Utilities" data-ar="أدوات الذكاء الاصطناعي">AI Tools & Utilities</h2>
+                <p class="text-xl text-gray-400" data-en="Powerful Solutions for Healthcare Workflows" data-ar="حلول قوية لسير عمل الرعاية الصحية">Powerful Solutions for Healthcare Workflows</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="tool-card">
+                    <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-cyan-500/20 to-blue-500/20 flex items-center justify-center mb-4">
+                        <span class="text-2xl">🔗</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3" data-en="Healthcare Interoperability Suite" data-ar="جناح التشغيل البيني للرعاية الصحية">Healthcare Interoperability Suite</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed" data-en="Universal integration platform supporting FHIR R4, HL7 v2.x, and custom protocols for seamless data exchange between healthcare systems." data-ar="منصة تكامل عالمية تدعم FHIR R4 وHL7 v2.x والبروتوكولات المخصصة لتبادل البيانات بسلاسة.">
+                        Universal integration platform supporting FHIR R4, HL7 v2.x, and custom protocols for seamless data exchange between healthcare systems.
+                    </p>
+                </div>
+
+                <div class="tool-card">
+                    <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-purple-500/20 to-pink-500/20 flex items-center justify-center mb-4">
+                        <span class="text-2xl">🧠</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3" data-en="Clinical NLP Engine" data-ar="محرك معالجة اللغة الطبيعية السريرية">Clinical NLP Engine</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed" data-en="Advanced natural language processing trained on 10M+ medical documents for accurate clinical text analysis and entity extraction." data-ar="معالجة متقدمة للغة الطبيعية مدربة على أكثر من 10 ملايين وثيقة طبية للتحليل الدقيق للنص السريري.">
+                        Advanced natural language processing trained on 10M+ medical documents for accurate clinical text analysis and entity extraction.
+                    </p>
+                </div>
+
+                <div class="tool-card">
+                    <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-green-500/20 to-teal-500/20 flex items-center justify-center mb-4">
+                        <span class="text-2xl">🤖</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3" data-en="AI Context Generator" data-ar="مولد السياق بالذكاء الاصطناعي">AI Context Generator</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed" data-en="Intelligent prompt engineering platform for creating contextually-aware AI instructions optimized for healthcare workflows." data-ar="منصة هندسة موجهات ذكية لإنشاء تعليمات ذكاء اصطناعي واعية بالسياق محسنة لسير عمل الرعاية الصحية.">
+                        Intelligent prompt engineering platform for creating contextually-aware AI instructions optimized for healthcare workflows.
+                    </p>
+                </div>
+
+                <div class="tool-card">
+                    <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-orange-500/20 to-red-500/20 flex items-center justify-center mb-4">
+                        <span class="text-2xl">📊</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3" data-en="Excel Data Consolidator" data-ar="موحد بيانات Excel">Excel Data Consolidator</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed" data-en="AI-powered tool for merging complex healthcare datasets with automatic deduplication and validation rules." data-ar="أداة مدعومة بالذكاء الاصطناعي لدمج مجموعات بيانات الرعاية الصحية المعقدة مع إزالة التكرار التلقائي.">
+                        AI-powered tool for merging complex healthcare datasets with automatic deduplication and validation rules.
+                    </p>
+                </div>
+
+                <div class="tool-card">
+                    <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-indigo-500/20 to-blue-500/20 flex items-center justify-center mb-4">
+                        <span class="text-2xl">🛡️</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3" data-en="Compliance Automation" data-ar="أتمتة الامتثال">Compliance Automation</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed" data-en="Automated HIPAA, GDPR, and regional compliance checking with real-time monitoring and audit trail generation." data-ar="فحص آلي للامتثال لـ HIPAA وGDPR والامتثال الإقليمي مع المراقبة في الوقت الفعلي.">
+                        Automated HIPAA, GDPR, and regional compliance checking with real-time monitoring and audit trail generation.
+                    </p>
+                </div>
+
+                <div class="tool-card">
+                    <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-yellow-500/20 to-orange-500/20 flex items-center justify-center mb-4">
+                        <span class="text-2xl">💰</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3" data-en="Insurance Claims Analyzer" data-ar="محلل مطالبات التأمين">Insurance Claims Analyzer</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed" data-en="ML-driven claims processing with fraud detection, predictive analytics, and automated adjudication workflows." data-ar="معالجة المطالبات المدعومة بالتعلم الآلي مع كشف الاحتيال والتحليلات التنبؤية.">
+                        ML-driven claims processing with fraud detection, predictive analytics, and automated adjudication workflows.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Section -->
+    <section id="journey" class="section-padding relative">
+        <div class="container-custom">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl md:text-6xl font-bold gradient-text mb-4" data-en="Professional Journey" data-ar="الرحلة المهنية">Professional Journey</h2>
+                <p class="text-xl text-gray-400" data-en="14+ Years of Healthcare Innovation" data-ar="أكثر من 14 عامًا من الابتكار في الرعاية الصحية">14+ Years of Healthcare Innovation</p>
+            </div>
+
+            <div class="max-w-4xl mx-auto relative">
+                <div class="timeline-line"></div>
+
+                <div class="relative mb-12 pl-16">
+                    <div class="timeline-dot"></div>
+                    <div class="glass-effect rounded-2xl p-8">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-2xl font-bold text-white" data-en="2024 - Present" data-ar="2024 - الحاضر">2024 - Present</h3>
+                            <span class="px-4 py-2 bg-cyan-500/20 text-cyan-400 rounded-lg font-medium">Current</span>
+                        </div>
+                        <h4 class="text-xl text-cyan-400 mb-3" data-en="BrainSAIT Global Expansion" data-ar="التوسع العالمي لـ BrainSAIT">BrainSAIT Global Expansion</h4>
+                        <p class="text-gray-300 leading-relaxed" data-en="Scaling BrainSAIT platform internationally, launching open-source PyPI packages, and developing next-generation multilingual AI solutions. Partnership with leading healthcare institutions across MENA region." data-ar="توسيع منصة BrainSAIT دوليًا، وإطلاق حزم PyPI مفتوحة المصدر، وتطوير حلول الذكاء الاصطناعي متعددة اللغات من الجيل التالي.">
+                            Scaling BrainSAIT platform internationally, launching open-source PyPI packages, and developing next-generation multilingual AI solutions. Partnership with leading healthcare institutions across MENA region.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative mb-12 pl-16">
+                    <div class="timeline-dot"></div>
+                    <div class="glass-effect rounded-2xl p-8">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-2xl font-bold text-white" data-en="2020 - 2024" data-ar="2020 - 2024">2020 - 2024</h3>
+                            <span class="px-4 py-2 bg-purple-500/20 text-purple-400 rounded-lg font-medium">Innovation</span>
+                        </div>
+                        <h4 class="text-xl text-purple-400 mb-3" data-en="Digital Healthcare Revolution" data-ar="ثورة الرعاية الصحية الرقمية">Digital Healthcare Revolution</h4>
+                        <p class="text-gray-300 leading-relaxed" data-en="Founded BrainSAIT, developed comprehensive FHIR/HL7 integration systems, published 'OI vs AI' book exploring the relationship between human and artificial intelligence in healthcare." data-ar="تأسيس BrainSAIT، وتطوير أنظمة تكامل FHIR/HL7 الشاملة، ونشر كتاب 'OI vs AI' الذي يستكشف العلاقة بين الذكاء البشري والاصطناعي.">
+                            Founded BrainSAIT, developed comprehensive FHIR/HL7 integration systems, published 'OI vs AI' book exploring the relationship between human and artificial intelligence in healthcare.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative mb-12 pl-16">
+                    <div class="timeline-dot"></div>
+                    <div class="glass-effect rounded-2xl p-8">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-2xl font-bold text-white" data-en="2015 - 2020" data-ar="2015 - 2020">2015 - 2020</h3>
+                            <span class="px-4 py-2 bg-green-500/20 text-green-400 rounded-lg font-medium">Growth</span>
+                        </div>
+                        <h4 class="text-xl text-green-400 mb-3" data-en="Healthcare Technology Leadership" data-ar="قيادة تقنية الرعاية الصحية">Healthcare Technology Leadership</h4>
+                        <p class="text-gray-300 leading-relaxed" data-en="Led digital transformation initiatives in major healthcare organizations, implementing EMR systems, clinical decision support tools, and establishing interoperability standards." data-ar="قيادة مبادرات التحول الرقمي في مؤسسات الرعاية الصحية الكبرى، وتنفيذ أنظمة السجلات الطبية الإلكترونية.">
+                            Led digital transformation initiatives in major healthcare organizations, implementing EMR systems, clinical decision support tools, and establishing interoperability standards.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="relative pl-16">
+                    <div class="timeline-dot"></div>
+                    <div class="glass-effect rounded-2xl p-8">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-2xl font-bold text-white" data-en="2010 - 2015" data-ar="2010 - 2015">2010 - 2015</h3>
+                            <span class="px-4 py-2 bg-orange-500/20 text-orange-400 rounded-lg font-medium">Foundation</span>
+                        </div>
+                        <h4 class="text-xl text-orange-400 mb-3" data-en="Medical Practice Foundation" data-ar="أساس الممارسة الطبية">Medical Practice Foundation</h4>
+                        <p class="text-gray-300 leading-relaxed" data-en="Started medical practice, gained extensive clinical experience, and identified critical opportunities for technology integration in healthcare delivery systems." data-ar="بدء الممارسة الطبية، واكتساب خبرة سريرية واسعة، وتحديد الفرص الحرجة لدمج التكنولوجيا في أنظمة تقديم الرعاية الصحية.">
+                            Started medical practice, gained extensive clinical experience, and identified critical opportunities for technology integration in healthcare delivery systems.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding relative">
+        <div class="container-custom">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl md:text-6xl font-bold gradient-text mb-4" data-en="Let's Connect" data-ar="دعنا نتواصل">Let's Connect</h2>
+                <p class="text-xl text-gray-400 max-w-3xl mx-auto" data-en="Ready to transform healthcare with innovative technology? Let's discuss how we can collaborate to create impactful solutions." data-ar="هل أنت مستعد لتحويل الرعاية الصحية بالتكنولوجيا المبتكرة؟ دعنا نناقش كيف يمكننا التعاون لإنشاء حلول مؤثرة.">
+                    Ready to transform healthcare with innovative technology? Let's discuss how we can collaborate to create impactful solutions.
+                </p>
+            </div>
+
+            <div class="max-w-4xl mx-auto">
+                <div class="glass-effect rounded-3xl p-12">
+                    <div class="grid md:grid-cols-2 gap-12">
+                        <div>
+                            <h3 class="text-2xl font-bold text-white mb-6" data-en="Get in Touch" data-ar="تواصل معنا">Get in Touch</h3>
+                            <form id="contactForm" class="space-y-6" onsubmit="handleSubmit(event)" data-endpoint="https://contact-form.dr-mf-12298.workers.dev/api/contact">
+                                <div class="grid md:grid-cols-2 gap-6">
+                                    <div>
+                                        <label for="contact-name" class="block text-gray-400 mb-2" data-en="Name" data-ar="الاسم">Name</label>
+                                        <input type="text" id="contact-name" name="name" required class="w-full px-4 py-3 rounded-xl bg-slate-800/50 border border-slate-700 focus:border-cyan-500 focus:outline-none transition-all">
+                                    </div>
+                                    <div>
+                                        <label for="contact-email" class="block text-gray-400 mb-2" data-en="Email" data-ar="البريد الإلكتروني">Email</label>
+                                        <input type="email" id="contact-email" name="email" required class="w-full px-4 py-3 rounded-xl bg-slate-800/50 border border-slate-700 focus:border-cyan-500 focus:outline-none transition-all">
+                                    </div>
+                                </div>
+                                <div>
+                                    <label for="contact-message" class="block text-gray-400 mb-2" data-en="Message" data-ar="الرسالة">Message</label>
+                                    <textarea id="contact-message" name="message" rows="4" required class="w-full px-4 py-3 rounded-xl bg-slate-800/50 border border-slate-700 focus:border-cyan-500 focus:outline-none transition-all resize-none"></textarea>
+                                </div>
+                                <button type="submit" class="btn-primary w-full">
+                                    <span data-en="Send Message" data-ar="إرسال الرسالة">Send Message</span>
+                                </button>
+                                <p class="hidden mt-4 text-sm font-medium" data-status aria-live="polite"></p>
+                            </form>
+
+                            <div class="mt-8">
+                                <div class="space-y-4">
+                                    <a href="https://calendly.com/fadil369" target="_blank" class="btn-outline w-full text-center">
+                                        <span data-en="📅 Schedule Consultation" data-ar="📅 جدولة استشارة">📅 Schedule Consultation</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3 class="text-2xl font-bold text-white mb-6" data-en="Connect on Social" data-ar="تواصل على الشبكات الاجتماعية">Connect on Social</h3>
+                            <div class="grid grid-cols-3 gap-4">
+                                <a href="https://github.com/fadil369" target="_blank" class="social-icon">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+                                    </svg>
+                                </a>
+                                <a href="https://www.linkedin.com/in/fadil369" target="_blank" class="social-icon">
+                                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <div class="mt-8">
+                                <p class="text-gray-400 mb-4" data-en="Support Open Source Development" data-ar="دعم تطوير المصدر المفتوح">Support Open Source Development</p>
+                                <div class="flex gap-4">
+                                    <a href="https://www.patreon.com/Fadil369" target="_blank" class="text-cyan-400 hover:text-cyan-300 underline">Patreon</a>
+                                    <a href="https://www.paypal.com/paypalme/fadil369" target="_blank" class="text-cyan-400 hover:text-cyan-300 underline">PayPal</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <noscript>
+        <style>
+            #loader { display: none !important; }
+            section { opacity: 1 !important; transform: none !important; }
+        </style>
+    </noscript>
+
+    <script>
+        // Loading state management
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('loader').style.opacity = '0';
+                setTimeout(() => {
+                    document.getElementById('loader').style.display = 'none';
+                }, 300);
+            }, 500);
+        });
+
+        // Language switching functionality
+        function setLanguage(lang) {
+            const elements = document.querySelectorAll('[data-en][data-ar]');
+            const enBtn = document.getElementById('enBtn');
+            const arBtn = document.getElementById('arBtn');
+
+            if (lang === 'ar') {
+                document.body.classList.add('rtl');
+                document.documentElement.setAttribute('dir', 'rtl');
+                document.documentElement.setAttribute('lang', 'ar');
+
+                elements.forEach(el => {
+                    el.textContent = el.getAttribute('data-ar');
+                    if (el.classList.contains('arabic-font') === false && !el.closest('button, .btn-primary, .btn-outline')) {
+                        el.classList.add('arabic-font');
+                    }
+                });
+
+                // Update button styles
+                arBtn.className = 'px-5 py-2.5 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-semibold transition-all duration-300';
+                enBtn.className = 'px-5 py-2.5 rounded-full hover:bg-white/10 transition-all duration-300 text-gray-300';
+            } else {
+                document.body.classList.remove('rtl');
+                document.documentElement.setAttribute('dir', 'ltr');
+                document.documentElement.setAttribute('lang', 'en');
+
+                elements.forEach(el => {
+                    el.textContent = el.getAttribute('data-en');
+                    el.classList.remove('arabic-font');
+                });
+
+                // Update button styles
+                enBtn.className = 'px-5 py-2.5 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 text-white font-semibold transition-all duration-300';
+                arBtn.className = 'px-5 py-2.5 rounded-full hover:bg-white/10 transition-all duration-300 text-gray-300';
+            }
+
+            localStorage.setItem('preferredLanguage', lang);
+        }
+
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const menu = document.getElementById('navMenu');
+            const toggle = document.getElementById('mobileMenuToggle');
+            menu.classList.toggle('hidden');
+            menu.classList.toggle('flex');
+            const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+            toggle.setAttribute('aria-expanded', String(!isExpanded));
+        }
+
+        // Contact form handler
+        function handleSubmit(e) {
+            e.preventDefault();
+            const form = e.target;
+            const activeLang = document.documentElement.getAttribute('lang') || 'en';
+            const endpoint = form.getAttribute('data-endpoint');
+            const status = form.querySelector('[data-status]');
+            const submitBtn = form.querySelector('button[type="submit"]');
+            const originalLabel = submitBtn.innerHTML;
+
+            const statusMessages = {
+                pending: {
+                    en: 'Sending your message...',
+                    ar: 'جارٍ إرسال رسالتك...'
+                },
+                success: {
+                    en: 'Thank you! Your message has been sent successfully.',
+                    ar: 'شكرًا لك! تم إرسال رسالتك بنجاح.'
+                },
+                error: {
+                    en: 'We could not send your message. Please try again later or email fadil@brainsait.com.',
+                    ar: 'تعذر إرسال رسالتك. يرجى المحاولة لاحقًا أو مراسلتنا على البريد الإلكتروني fadil@brainsait.com.'
+                },
+                missingEndpoint: {
+                    en: 'Submission endpoint not configured. Please email fadil@brainsait.com directly.',
+                    ar: 'لم يتم إعداد وجهة الإرسال. يرجى المراسلة مباشرة على البريد الإلكتروني fadil@brainsait.com.'
+                }
+            };
+
+            const setStatus = (messageKey, tone) => {
+                const copy = statusMessages[messageKey] || { en: messageKey, ar: messageKey };
+                status.setAttribute('data-en', copy.en);
+                status.setAttribute('data-ar', copy.ar);
+                status.textContent = copy[activeLang] || copy.en;
+                status.dataset.tone = tone;
+                status.classList.remove('hidden');
+                setLanguage(activeLang);
+            };
+
+            const resetButton = () => {
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = originalLabel;
+            };
+
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<span data-en="Sending..." data-ar="جارٍ الإرسال...">Sending...</span>';
+            setLanguage(activeLang);
+            setStatus('pending', 'pending');
+
+            const formData = new FormData(form);
+
+            if (!endpoint) {
+                setStatus('missingEndpoint', 'error');
+                resetButton();
+                return;
+            }
+
+            fetch(endpoint, {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json'
+                },
+                body: formData
+            }).then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                setStatus('success', 'success');
+                form.reset();
+            }).catch(() => {
+                setStatus('error', 'error');
+            }).finally(() => {
+                resetButton();
+                setLanguage(activeLang);
+            });
+        }
+
+        // Load preferred language and add event listeners on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            const savedLang = localStorage.getItem('preferredLanguage');
+            const browserLang = navigator.language || navigator.userLanguage || 'en';
+            const initialLang = savedLang || (browserLang.toLowerCase().startsWith('ar') ? 'ar' : 'en');
+            setLanguage(initialLang);
+            if (!savedLang) {
+                localStorage.setItem('preferredLanguage', initialLang);
+            }
+
+            // Smooth scroll for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') {
+                        return;
+                    }
+                    const target = document.querySelector(targetId);
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                    if (window.innerWidth < 768) {
+                        const menu = document.getElementById('navMenu');
+                        if (menu.classList.contains('flex')) {
+                            toggleMobileMenu();
+                        }
+                    }
+                });
+            });
+
+            // Add scroll indicator for navigation
+            window.addEventListener('scroll', () => {
+                const nav = document.querySelector('nav');
+                if (window.scrollY > 100) {
+                    nav.classList.add('shadow-2xl');
+                } else {
+                    nav.classList.remove('shadow-2xl');
+                }
+            });
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        let observer;
+        if ('IntersectionObserver' in window) {
+            observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate-in');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+        }
+
+        // Observe all sections for scroll animations
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('section').forEach(section => {
+                section.style.opacity = '0';
+                section.style.transform = 'translateY(20px)';
+                if (observer) {
+                    observer.observe(section);
+                } else {
+                    section.style.opacity = '1';
+                    section.style.transform = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>

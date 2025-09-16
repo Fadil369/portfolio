@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://fadil.brainsait.com/sitemap.xml
+
+# Disallow common admin/config files (if any exist in the future)
+Disallow: /admin/
+Disallow: /.env
+Disallow: /config/
+Disallow: /_headers
+Disallow: /_redirects
+
+# Allow all search engines to crawl the portfolio
+# This helps with SEO and discoverability

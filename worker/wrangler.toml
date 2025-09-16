@@ -1,0 +1,24 @@
+name = "contact-form"
+main = "index.js"
+compatibility_date = "2024-09-16"
+
+# Environment variables and secrets
+[env.production]
+name = "contact-form"
+
+# KV namespace for rate limiting and storage (optional)
+# Uncomment and configure if you want to use KV storage
+# [[kv_namespaces]]
+# binding = "CONTACT_FORM_KV"
+# id = "your-kv-namespace-id"
+# preview_id = "your-kv-preview-namespace-id"
+
+# Custom domains
+# Uncomment and configure your custom domain
+# [env.production.routes]
+# pattern = "contact.fadil.workers.dev/*"
+
+# Variables (these will be set via wrangler secret commands)
+# RESEND_API_KEY - Your Resend API key for sending emails
+# TO_EMAIL - Destination email (default: fadil@brainsait.com)
+# FROM_EMAIL - From email (default: noreply@brainsait.com)

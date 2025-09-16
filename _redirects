@@ -1,0 +1,37 @@
+# Redirects for fadil.brainsait.com
+
+# Redirect common portfolio URLs to sections
+/portfolio           /#projects          302
+/projects            /#projects          302
+/about               /#about             302
+/contact             /#contact           302
+/expertise           /#expertise         302
+/tools               /#tools             302
+/journey             /#journey           302
+
+# Social media redirects
+/github              https://github.com/fadil369                    302
+/linkedin            https://www.linkedin.com/in/fadil369           302
+/pypi                https://pypi.org/user/Fadil369/               302
+/patreon             https://www.patreon.com/Fadil369              302
+/paypal              https://www.paypal.com/paypalme/fadil369      302
+/calendly            https://calendly.com/fadil369                 302
+/schedule            https://calendly.com/fadil369                 302
+
+# BrainSAIT redirects
+/brainsait           https://brainsait.com                         302
+/main-site           https://brainsait.com                         302
+
+# Email redirect
+/email               mailto:fadil@brainsait.com                    302
+
+# CV/Resume redirect (you can add this later when you have a PDF)
+/cv                  /cv.pdf                                       302
+/resume              /cv.pdf                                       302
+
+# Legacy URLs (if any)
+/home                /                                             301
+/index.html          /                                             301
+
+# 404 fallback - redirect to home
+/*                   /                                             404
