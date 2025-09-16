@@ -9,10 +9,6 @@
 
 Professional portfolio website for Dr. Mohamed El Fadil, showcasing expertise in Healthcare AI, FHIR/HL7 integration, and clinical intelligence systems. Built with modern web technologies and optimized for performance, accessibility, and multilingual support.
 
-## 🚀 Live Site
-
-**Production:** [https://fadil.brainsait.com](https://fadil.brainsait.com)
-
 ## ✨ Features
 
 ### 🎨 Design & UX
@@ -71,8 +67,8 @@ portofolio/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/fadil-portfolio.git
-   cd fadil-portfolio
+   git clone https://github.com/your-username/portfolio.git
+   cd portfolio
    ```
 
 2. **Serve locally**
