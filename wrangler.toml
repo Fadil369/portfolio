@@ -1,0 +1,28 @@
+name = "fadil-portfolio"
+compatibility_date = "2024-01-01"
+
+[env.production.vars]
+ENVIRONMENT = "production"
+
+[env.staging.vars]
+ENVIRONMENT = "staging"
+
+[[env.production.routes]]
+pattern = "fadil369.github.io/*"
+zone_name = "github.io"
+
+# Pages configuration for static site deployment
+[build]
+command = "echo 'No build command needed for static site'"
+publish = "."
+
+# Headers and security
+[build.environment]
+NODE_VERSION = "18"
+
+# Optional: Custom domains (uncomment and configure when ready)
+# [env.production]
+# routes = [
+#   { pattern = "example.com/*", zone_name = "example.com" },
+#   { pattern = "www.example.com/*", zone_name = "example.com" }
+# ]

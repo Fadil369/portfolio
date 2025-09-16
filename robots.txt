@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fadil369.github.io/portfolio/sitemap.xml
+
+# Disallow common non-content paths
+Disallow: /tmp/
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /_headers
+Disallow: /_redirects
+Disallow: /wrangler.toml
+Disallow: /package.json
+Disallow: /package-lock.json

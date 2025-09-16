@@ -1,0 +1,11 @@
+# Redirect www to non-www
+https://www.fadil369.github.io/* https://fadil369.github.io/:splat 301!
+
+# Handle SPA routing (if needed for future React/Vue versions)
+# /* /index.html 200
+
+# Redirect old paths (examples)
+/home /
+/about-me /about
+/work /projects
+/contact-me /contact

@@ -1,0 +1,27 @@
+{
+  "name": "Fadil's Portfolio",
+  "short_name": "Fadil Portfolio",
+  "description": "Portfolio website of Fadil - Web Developer & Designer",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["portfolio", "professional", "developer"],
+  "lang": "en",
+  "dir": "ltr",
+  "scope": "/"
+}
